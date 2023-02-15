@@ -1,10 +1,10 @@
-package com.example.obrestdatajpa;
+package com.example.springdeploy;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ObRestDatajpaApplicationTests {
+class SpringDeployApplicationTests {
 
 	@Test
 	void contextLoads() {

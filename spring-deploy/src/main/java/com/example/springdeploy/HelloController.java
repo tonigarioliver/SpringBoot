@@ -1,4 +1,4 @@
-package com.example.obrestdatajpa.controller;
+package com.example.springdeploy;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
