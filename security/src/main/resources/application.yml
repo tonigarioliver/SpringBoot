@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://trumpet.db.elephantsql.com:5432/yzpikqzv
+    username: yzpikqzv
+    password: 77keGCZLeC-E5dbzUeBvgZ1DcOrzp9zO
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
