@@ -1,0 +1,25 @@
+server:
+  port: 8090
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 48090a51213ad10dc988
+            clientSecret: 8cf18d24340788b8ab37f928a42a13df34ba39bd
+  datasource:
+    url: jdbc:postgresql://trumpet.db.elephantsql.com:5432/yzpikqzv
+    username: yzpikqzv
+    password: 77keGCZLeC-E5dbzUeBvgZ1DcOrzp9zO
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
